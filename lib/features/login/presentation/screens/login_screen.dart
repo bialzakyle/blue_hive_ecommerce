@@ -25,8 +25,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   void initState() {
-    email.text = 'bialzakyle@gmail.com';
-    password.text = 'kylezen';
     loginBloc = BlocProvider.of<LoginBloc>(context);
     super.initState();
   }
